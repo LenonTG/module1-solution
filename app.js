@@ -8,8 +8,8 @@
   function LunchCheckController($scope) {
     $scope.textbox = "";
     $scope.message = "";
-    // $scope.fontStyle = {}; - можно не вводить, тк оно инициализируется прям в коде
-    // $scope.boxStyle = {};
+    $scope.fontStyle = {};
+    $scope.boxStyle = {};
         
     $scope.counteWords = function () {
       if ($scope.textbox !== false) {
@@ -55,6 +55,6 @@
           };
       };
 
-  } // 13 $scope.counteWords = function () 
+  } 13 $scope.counteWords = function () 
 
 })();
